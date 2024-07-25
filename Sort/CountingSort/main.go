@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func CountingSort(arr []int) []int {
+func countingSort(arr []int) []int {
 	max_val := arr[0]
 	min_val := arr[0]
 
@@ -42,6 +42,6 @@ func CountingSort(arr []int) []int {
 func main() {
 	arr := []int{9, 3, 8, 10, 56, 27, 98, 1, 47, 12, 2, 7}
 	fmt.Println(arr)
-	output_arr := CountingSort(arr)
+	output_arr := countingSort(arr)
 	fmt.Println(output_arr)
 }
